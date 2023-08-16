@@ -2,8 +2,7 @@
 
 /**
  * print_times_table - prints time table of n
- *
- * @n: takes number input
+ * @n: parameter
  */
 void print_times_table(int n)
 {
@@ -17,7 +16,7 @@ void print_times_table(int n)
 	{
 	_putchar(',');
 	_putchar(' ');
-	result = digit + mult;
+	result = digit * mult;
 	if (result <= 99)
 	_putchar(' ');
 	if (result <= 9)
