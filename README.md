@@ -1,2 +1,1 @@
-0x00. C - Hello, World
-0x03. C - Debugging
+0x0C. C - More malloc, free
